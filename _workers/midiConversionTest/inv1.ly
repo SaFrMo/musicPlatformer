@@ -1,4 +1,4 @@
-\header{
+﻿\header{
    composer          = "Johann Sebastian Bach (1685-1750)"
    title             = "Invention 1"
    opus              = "BWV 772"
