@@ -16,7 +16,9 @@ public class Jump : MonoBehaviour {
 
 	private void OnCollisionEnter (Collision c)
 	{
-		if (c.collider.CompareTag("Ground"))
+		if (c.collider.CompareTag("Ground") ||
+		    c.collider.CompareTag("Treble") ||
+		    c.collider.CompareTag("Bass"))
 		{
 			ResetJumpCount();
 		}
